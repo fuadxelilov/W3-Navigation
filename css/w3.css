@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* START FIRST NAVIGATION */
+
+.first_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right:13px ;
+    padding-left: 14px;
+}
+.first_nav figure {
+    padding: 16px 26px 10px;
+    
+}
+.first_nav img {
+    height: 46px;
+    width: 49px;
+}
+/* START HOME PART */
+.home_part {
+    display: flex;
+    list-style: none;
+    padding: 24px 2px 20px 1px ;
+    margin-right: 163px;
+}
+
+.home_part li  a {
+    text-decoration: none;
+    margin-left: 23px;  
+    font-size: 21px;
+    color: #282A35;
+    
+}
+.home_part li a:hover {
+    background: #04AA6D;
+    padding-bottom: 30px;
+    padding-top: 24px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #fff;
+}
+.home_part li a:active {
+    background: #282A35;
+}
+/* FINISH HOME PART */
+/* START COURSE PART */
+.course_part {
+    display: flex;
+    margin-top: 24px;
+    list-style: none;
+    padding-right: 5px;
+}
+.course_part li a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 19px;
+    font-family: 'Source Sans Pro', sans-serif;
+} 
+
+.web {
+    background: #FFC0C7;
+    padding: 11px;
+    border-radius: 20px;
+    color: #282A35;
+}
+
+.web:hover {
+    background:#04AA6D ;
+    border-radius: 20px;
+    padding: 11px;
+    color: #fff;
+}
+
+.course {
+    color: #282A35;
+}
+.course:hover {
+    background: #04AA6D;
+    padding: 11px;
+    border-radius: 20px;
+    color: #fff;
+}
+.register {
+    background: #04AA6D ;
+    padding: 11px 37px;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.register:hover {
+    background: #059862;
+    padding: 11px 37px;
+    border-radius: 20px;
+    color: #fff;
+}
+/* SPAN PART */
+span {
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 2px 4px 2px;
+    background: #fff;
+    
+}
+span:hover {
+    color: black;
+}
+/* End SPAN PART */
+/* FINISH COURSE PART */
+
+/* START SECOND  NAVIGATION */ 
+.second_nav {
+    display: flex;
+    justify-content: space-between;
+    background:#282A35;
+    padding-bottom: 14px;
+}
+.second_nav li a:hover {
+    background: black;
+}
+.second_nav li a:active {
+    background: #04AA6D;
+}
+/* START TUTORIALS */
+.tutorials {
+    display: flex;
+    list-style: none;
+    padding-top: 12px;
+}
+.tutorials li a {
+    text-decoration: none;
+    padding: 11px 15px 13px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* END TUTORIALS */
+/* Start ICONS */
+.icons {
+    display: flex;
+    list-style: none;
+    padding-top: 12px;
+}
+.icons li a {
+    text-decoration: none;
+    padding: 11px 15px 13px;
+    color: #fff;
+}
+/* END ICONS */
+
+
+/* END SECOND NAVIGATION */
+
+
+/*  Start Decoration of lists */
+.list {
+    padding-top: 52px;
+    background: #282A35;
+    display: flex;
+}
+.list h1 {
+    margin-bottom: 28px;
+    margin-left: 85px;
+    color: #FFF4A3;
+    font-size: 34px;
+    font-family:'Source Sans Pro', sans-serif; ;
+}
+.list a:hover{
+    background: #ccc;
+    color: #000;
+}
+.list_tutorial h2 {
+    margin-bottom: 28px;
+    margin-left: 88px;
+    color: #FFF4A3;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.list_tutorial a {
+    display: block;
+    margin-bottom: 9px;
+    margin-left: 86px;
+    text-decoration: none;
+    padding: 2px 0px 2px 6px;
+    color: #fff;
+    font-size: 18px;
+    font-family:  'Source Sans Pro', sans-serif;
+}
+.list_programming h2 {
+    margin-bottom: 26px;
+    margin-left: 87px;
+    color: #FFF4A3;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 67px;
+}
+.list_programming a {
+    display: block;
+    margin-bottom: 9px;
+    margin-left: 86px;
+    text-decoration: none;
+    padding: 2px 0px 2px 6px;
+    color: #fff;
+    font-size: 18px;
+    font-family:  'Source Sans Pro', sans-serif;
+}
+.list_server h2 {
+    margin-bottom: 26px;
+    margin-left: 87px;
+    color: #FFF4A3;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 67px;
+}
+.list_server a {
+    display: block;
+    margin-bottom: 9px;
+    margin-left: 86px;
+    text-decoration: none;
+    padding: 2px 0px 2px 6px;
+    color: #fff;
+    font-size: 18px;
+    font-family:  'Source Sans Pro', sans-serif;
+}
+.list_span {
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 2px 4px 2px;
+    background: #FFF4A3;
+    
+}
+.list_data h2 {
+    margin-bottom: 26px;
+    margin-left: 87px;
+    color: #FFF4A3;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 67px;
+}
+.list_data a {
+    display: block;
+    margin-bottom: 9px;
+    margin-left: 86px;
+    text-decoration: none;
+    padding: 2px 0px 2px 6px;
+    color: #fff;
+    font-size: 18px;
+    font-family:  'Source Sans Pro', sans-serif;
+}
+/* End Decoration oflists */
